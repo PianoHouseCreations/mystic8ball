@@ -12,16 +12,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="pianohousecreations.mystic8ball.MainActivity">
 
-    <TextView
-        android:id="@+id/directions"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:paddingBottom="32dp"
-        android:paddingTop="8dp"
-        android:text="@string/user_directions"
-        android:textColor="@android:color/white"
-        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/ballPicture"
@@ -32,5 +22,17 @@
         android:onClick="getAnswerPicturePressed"
         android:scaleType="centerInside"
         android:src="@drawable/ball2d" />
+
+    <TextView
+        android:id="@+id/directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="32dp"
+        android:paddingTop="8dp"
+        android:lines="3"
+        android:text="@string/user_directions"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
 
 </RelativeLayout>

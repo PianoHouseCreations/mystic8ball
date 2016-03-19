@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
     // method to return random image
     public int getRandomImageId () {
         // Get a random between 0 and images.length-1
-        int imageId = (int)(Math.random() * images.length);
-        return imageId;
+        return (int)(Math.random() * images.length);
     }
 }

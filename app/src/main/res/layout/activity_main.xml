@@ -28,6 +28,7 @@
         android:layout_below="@+id/directions"
         android:adjustViewBounds="true"
         android:scaleType="centerInside"
+		android:onClick="getAnswerButtonPressed"
         android:src="@drawable/ball2d"/>
 
     <Button

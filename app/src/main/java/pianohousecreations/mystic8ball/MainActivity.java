@@ -41,6 +41,15 @@ public class MainActivity extends AppCompatActivity {
         // set the ImageView to show the answer
         imageView.setImageResource(images[getRandomImageId()]);
     }
+	
+	// method to set all the things when the button is pressed
+    public void getGraphicPressed(View view) {
+        // create imageView object
+        ImageView imageView = (ImageView) findViewById(R.id.ballPicture);
+
+        // set the ImageView to show the answer
+        imageView.setImageResource(images[getRandomImageId()]);
+    }
 
     // method to return random image
     public int getRandomImageId () {

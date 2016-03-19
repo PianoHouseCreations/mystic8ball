@@ -15,9 +15,9 @@
         android:id="@+id/directions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingBottom="32dp"
+        android:paddingBottom="64dp"
         android:paddingTop="8dp"
-        android:text="Ask a question and then press the button below"
+        android:text="@string/user_directions"
         android:textColor="@android:color/white"
         android:textStyle="bold"/>
 
@@ -27,19 +27,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/directions"
         android:adjustViewBounds="true"
+        android:onClick="getAnswerPicturePressed"
         android:scaleType="centerInside"
-		android:onClick="getAnswerButtonPressed"
         android:src="@drawable/ball2d"/>
-
-    <Button
-        android:id="@+id/answerButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="getAnswerButtonPressed"
-        android:padding="16dp"
-        android:text="Press to get your answer"/>
-
 
 </RelativeLayout>

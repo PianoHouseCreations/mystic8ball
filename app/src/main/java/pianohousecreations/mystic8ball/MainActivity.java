@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         imageView.setImageResource(images[getRandomIndex()]);
     }
 
-    // method to return random image
+    // method to return random index of an image
     private int getRandomIndex() {
         // Get a random between 0 and images.length-1
         return (int)(Math.random() * images.length);

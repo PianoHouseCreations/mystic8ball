@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // method to set all the things when the button is pressed
-    public void getAnswerButtonPressed(View view) {
+    public void getAnswerPicturePressed(View view) {
         // create imageView object
         ImageView imageView = (ImageView) findViewById(R.id.ballPicture);
 

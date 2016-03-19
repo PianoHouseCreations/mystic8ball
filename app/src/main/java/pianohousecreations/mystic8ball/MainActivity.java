@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     // method to return random index of an image
     private int getRandomIndex() {
-        // Get a random between 0 and images.length-1
+        // Get a random number between 0 and images.length-1
         return (int)(Math.random() * images.length);
     }
 }

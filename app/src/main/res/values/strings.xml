@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Mystic 8 Ball</string>
-    <string name="user_directions">Ask a question and then press the button below</string>
+    <string name="user_directions">Ask a yes or no question aloud. Tap on the 8-ball to get your answer.</string>
 </resources>

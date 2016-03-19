@@ -10,7 +10,7 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
 
     // making an int array to hold the available images for answers
-    int[] images = new int[] {
+    private int[] images = new int[] {
             R.drawable.cloudy,
             R.drawable.countonit,
             R.drawable.doubtit,
@@ -39,11 +39,11 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageView = (ImageView) findViewById(R.id.ballPicture);
 
         // set the ImageView to show the answer
-        imageView.setImageResource(images[getRandomImageId()]);
+        imageView.setImageResource(images[getRandomIndex()]);
     }
 
     // method to return random image
-    public int getRandomImageId () {
+    private int getRandomIndex() {
         // Get a random between 0 and images.length-1
         return (int)(Math.random() * images.length);
     }

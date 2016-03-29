@@ -28,7 +28,13 @@
         android:paddingBottom="64dp"
         android:paddingTop="8dp"
         android:text="@string/user_directions"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/holo_red_dark"
         android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="hardcoded text for debugging"
+        android:textColor="@android:color/white"/>
+
 
 </RelativeLayout>
